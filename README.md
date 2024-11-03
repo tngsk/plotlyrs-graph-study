@@ -53,7 +53,7 @@ All scenarios use a 10Hz input signal and 16-bit quantization.
 
 ```toml
 [dependencies]
-plotly = "0.8.3"
+plotly = { version = "0.10.0", features = ["kaleido"] }
 ```
 
 ## Usage
